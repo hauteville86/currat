@@ -113,7 +113,7 @@ function addTimeSeries (label) {
 
 function removeTimeSeries (label) {
 	var indexOfLabel = timeSeriesAndCurrencyLabels.labels.indexOf(label);
-	timeSeriesAndCurrencyLabels.labels.splice(indexOfLabel);
+	timeSeriesAndCurrencyLabels.labels.splice(indexOfLabel, 1);
 	timeSeriesAndCurrencyLabels.timeSeries.splice(indexOfLabel, 1);
 	console.log(timeSeriesAndCurrencyLabels);
 }
