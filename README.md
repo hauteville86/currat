@@ -1,7 +1,7 @@
 # Currat
 
 <h1>What is Currat?</h1>
-Currat is a very simple Spring application that reads currency exchange rates from National Bank of Poland's API and display the plots which show the currency exchange of Polish Zloty vs chosen foreign currency.
+Currat is a very simple Spring application that reads currency exchange rates from National Bank of Poland's API and display the plots showing the currency exchange of Polish Zloty vs chosen foreign currency.
 
 <h1>How to run Currat?</h1>
 1.Download the project and extract it.
